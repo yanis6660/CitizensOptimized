@@ -8,7 +8,7 @@
     <version>2.0.30-SNAPSHOT</version>
 
     <properties>
-        <BUILD_NUMBER>Unknown</BUILD_NUMBER>
+        <BUILD_NUMBER>1.0</BUILD_NUMBER>
         <CITIZENS_VERSION>2.0.30</CITIZENS_VERSION>
     </properties>
 
@@ -37,7 +37,7 @@
         <module>v1_16_R3</module>
         <module>v1_17_R1</module>
         <module>v1_18_R2</module>
-        <module>v1_19_R2</module>
-        <module>dist</module>-->
+        <module>v1_19_R2</module>-->
+        <module>dist</module>
     </modules>
 </project>

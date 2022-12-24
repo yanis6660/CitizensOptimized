@@ -130,16 +130,6 @@
             <version>3.0.0</version>
         </dependency>
     </dependencies>
-    <url>http://www.citizensnpcs.co</url>
-    <ciManagement>
-        <system>jenkins</system>
-        <url>http://ci.citizensnpcs.co</url>
-    </ciManagement>
-    <scm>
-        <connection>scm:git:git://github.com/CitizensDev/Citizens2.git</connection>
-        <developerConnection>scm:git:git:@github.com:CitizensDev/Citizens2.git</developerConnection>
-        <url>https://github.com/CitizensDev/Citizens2/tree/master/</url>
-    </scm>
     <build>
         <defaultGoal>clean package install javadoc:javadoc</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>

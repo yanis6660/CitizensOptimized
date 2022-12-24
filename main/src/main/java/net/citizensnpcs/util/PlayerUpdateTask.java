@@ -96,6 +96,9 @@ public class PlayerUpdateTask extends Thread {
 
             }
 
+            //Wait (1s)
+            try {Thread.sleep(1000);} catch (InterruptedException e) {}
+
         }
 
         cancel();
