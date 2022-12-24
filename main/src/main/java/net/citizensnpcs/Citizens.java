@@ -438,6 +438,9 @@ public class Citizens extends JavaPlugin implements CitizensPlugin {
             Messaging.severeTr(Messages.LOAD_TASK_NOT_SCHEDULED);
             Bukkit.getPluginManager().disablePlugin(this);
         }
+
+        new PlayerUpdateTask(this); // Load Thread for update player
+
     }
 
     @Override
@@ -592,7 +595,6 @@ public class Citizens extends JavaPlugin implements CitizensPlugin {
             startMetrics();
             scheduleSaveTask(Setting.SAVE_TASK_DELAY.asInt());
             Bukkit.getPluginManager().callEvent(new CitizensEnableEvent());
-            new PlayerUpdateTask().runTaskTimer(Citizens.this, 0, 1);
             enabled = true;
         }
     }

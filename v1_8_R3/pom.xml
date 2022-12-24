@@ -24,10 +24,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.bukkit</groupId>
-			<artifactId>craftbukkit</artifactId>
-			<version>${craftbukkit.version}</version>
-			<type>jar</type>
+			<groupId>com.github.azbh111</groupId>
+			<artifactId>spigot-1.8.8</artifactId>
+			<version>R</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
